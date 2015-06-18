@@ -117,5 +117,8 @@ class MoveRover
       end
     end 
   end  
-end  
-#MoveRover.new
+end
+
+if __FILE__==$0  
+  MoveRover.new
+end
